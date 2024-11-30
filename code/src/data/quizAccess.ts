@@ -6,45 +6,37 @@ export interface QuizAccess {
 
 export const quizAccessList: QuizAccess[] = [
   // Code de test
-  { code: "noelTest", password: "test", day: 1 },
+  { code: "test", password: "test", day: 1 },
   // Codes réels
-  { code: "sapin", password: "boule", day: 1 },
-  { code: "renne", password: "traineau", day: 2 },
-  { code: "etoile", password: "lumiere", day: 3 },
-  { code: "cadeau", password: "ruban", day: 4 },
-  { code: "chaussette", password: "cheminee", day: 5 },
-  { code: "bougie", password: "flamme", day: 6 },
-  { code: "guirlande", password: "lumiere", day: 7 },
-  { code: "houx", password: "rouge", day: 8 },
-  { code: "neige", password: "flocon", day: 9 },
-  { code: "lutin", password: "atelier", day: 10 },
-  { code: "cloche", password: "tintement", day: 11 },
-  { code: "bonhomme", password: "neige", day: 12 },
-  { code: "chocolat", password: "chaud", day: 13 },
-  { code: "pain", password: "epice", day: 14 },
-  { code: "biscuit", password: "cannelle", day: 15 },
-  { code: "lait", password: "cookie", day: 16 },
-  { code: "traineau", password: "grelot", day: 17 },
-  { code: "couronne", password: "avent", day: 18 },
-  { code: "marche", password: "noel", day: 19 },
-  { code: "village", password: "illumine", day: 20 },
-  { code: "lettre", password: "perenoel", day: 21 },
-  { code: "conte", password: "feerique", day: 22 },
-  { code: "reveillon", password: "festin", day: 23 },
-  { code: "minuit", password: "magique", day: 24 }
+  { code: "noel", password: "sapin", day: 2 },
+  { code: "bougie", password: "reveillon", day: 4 },
+  { code: "boule", password: "bonhomme de neige", day: 6 },
+  { code: "chaussette", password: "cloche", day: 8 },
+  { code: "carte", password: "chocolat", day: 10 },
+  { code: "etoile", password: "gant", day: 12 },
+  { code: "cadeau", password: "flocon", day: 14 },
+  { code: "sucre d'orge", password: "buche", day: 16 },
+  { code: "renne", password: "dinde", day: 18 },
+  { code: "calendrier", password: "casse noisette", day: 20 },
+  { code: "route", password: "sel", day: 22 },
+  { code: "hiver ", password: "laponie", day: 24 },
 ];
 
-export const validateAccess = (code: string, password: string): number | null => {
+export const validateAccess = (
+  code: string,
+  password: string
+): number | null => {
   const access = quizAccessList.find(
-    a => a.code.toLowerCase() === code.toLowerCase() && 
-        a.password.toLowerCase() === password.toLowerCase()
+    (a) =>
+      a.code.toLowerCase() === code.toLowerCase() &&
+      a.password.toLowerCase() === password.toLowerCase()
   );
-  
+
   if (access) {
-    console.log('Accès validé pour le jour:', access.day);
+    console.log("Accès validé pour le jour:", access.day);
     return access.day;
   }
-  
-  console.log('Accès refusé pour:', code, password);
+
+  console.log("Accès refusé pour:", code, password);
   return null;
 };

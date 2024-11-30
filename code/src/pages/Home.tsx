@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { Snowflake } from 'lucide-react';
-import { validateAccess } from '../data/quizAccess';
-import Snowfall from 'react-snowfall';
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { Snowflake } from "lucide-react";
+import { validateAccess } from "../data/quizAccess";
+import Snowfall from "react-snowfall";
 
 export const Home: React.FC = () => {
   const navigate = useNavigate();
-  const [code, setCode] = useState('');
-  const [password, setPassword] = useState('');
-  const [error, setError] = useState('');
+  const [code, setCode] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -16,10 +16,10 @@ export const Home: React.FC = () => {
     if (day !== null) {
       navigate(`/quiz/${day}`);
     } else {
-      setError('Code ou mot de passe incorrect');
+      setError("Code ou mot de passe incorrect");
       // Réinitialiser les champs après une erreur
-      setCode('');
-      setPassword('');
+      setCode("");
+      setPassword("");
     }
   };
 
@@ -39,7 +39,10 @@ export const Home: React.FC = () => {
 
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
-            <label htmlFor="code" className="block text-sm font-medium text-teal-700 mb-2">
+            <label
+              htmlFor="code"
+              className="block text-sm font-medium text-teal-700 mb-2"
+            >
               Code d'accès
             </label>
             <input
@@ -49,17 +52,19 @@ export const Home: React.FC = () => {
               onChange={(e) => setCode(e.target.value)}
               className="w-full px-4 py-2 border border-teal-300 rounded-lg focus:ring-2 
                        focus:ring-teal-500 focus:border-transparent"
-              placeholder="Exemple: noelTest"
+              placeholder="Exemple: test"
               required
             />
           </div>
 
           <div>
-            <label htmlFor="password" className="block text-sm font-medium text-teal-700 mb-2">
+            <label
+              htmlFor="password"
+              className="block text-sm font-medium text-teal-700 mb-2"
+            >
               Mot de passe
             </label>
             <input
-              type="password"
               id="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
@@ -86,7 +91,7 @@ export const Home: React.FC = () => {
         </form>
 
         <div className="mt-4 text-sm text-teal-600 text-center">
-          <p>Pour tester : code="noelTest", mot de passe="test"</p>
+          <p>Pour tester : code="test", mot de passe="test"</p>
         </div>
       </div>
     </div>
