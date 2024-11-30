@@ -1,5 +1,5 @@
-import React from 'react';
-import { CheckCircle, XCircle } from 'lucide-react';
+import React from "react";
+import { CheckCircle, XCircle } from "lucide-react";
 
 interface AnswerScreenProps {
   isCorrect: boolean;
@@ -14,7 +14,7 @@ export const AnswerScreen: React.FC<AnswerScreenProps> = ({
   correctAnswer,
   explanation,
   onNext,
-  nextPlayer
+  nextPlayer,
 }) => {
   return (
     <div className="bg-white/95 rounded-xl p-8 backdrop-blur-sm text-center">
@@ -38,9 +38,7 @@ export const AnswerScreen: React.FC<AnswerScreenProps> = ({
         La bonne réponse était : <strong>{correctAnswer}</strong>
       </p>
 
-      {explanation && (
-        <p className="text-teal-600 mb-6">{explanation}</p>
-      )}
+      {explanation && <p className="text-teal-600 mb-6">{explanation}</p>}
 
       <div className="mt-8">
         <p className="text-teal-700 mb-4">Au tour du Joueur {nextPlayer} !</p>

@@ -62,9 +62,9 @@ export const quizQuestions: Record<number, Question[]> = {
   // Ajoutez les questions pour les autres jours ici...
   2: [
     {
-      question: "Quelle est l'origine de la tradition du sapin de Noël?",
-      options: ["Allemagne", "France", "Suède", "Russie"],
-      correctAnswer: 0,
+      question: "Que symbolisent les œufs peints appelés pisanki en Pologne?",
+      options: ["La prospérité", "La renaissance", "L’amour", "La paix"],
+      correctAnswer: 1,
     },
     {
       question:
@@ -120,9 +120,14 @@ export const quizQuestions: Record<number, Question[]> = {
   // Ajoutez les questions pour les autres jours ici...
   4: [
     {
-      question: "Quelle est l'origine de la tradition du sapin de Noël?",
-      options: ["Allemagne", "France", "Suède", "Russie"],
-      correctAnswer: 0,
+      question: "Quelle icône religieuse est vénérée à Jasna Góra ?",
+      options: [
+        "Saint Jean-Paul II",
+        "La croix d’argent",
+        "La couronne de Wawel",
+        "La Vierge Noire",
+      ],
+      correctAnswer: 3,
     },
     {
       question:
