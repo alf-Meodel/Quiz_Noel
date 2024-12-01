@@ -6,15 +6,21 @@
 
 # Sommaire
 
-- [Objectif et Consignes](#objectif-et-consignes)
+- [Objectif](#objectif)
 
 # Navigation
 
-- [Benchmark SGBDR](./doc/benchmark-sgbdr.md)
+- [Regles de gestion](./doc/regles-de-gestion.md)
+- [Dictionnaire de données](./doc/dictionnaire-de-donnees.md)
 
 ![border](./assets/line/line-pink-point_l.png)
 
-# Titre Principal
+# Objectif 
+
+- Chaque jour une enigme 
+- Deux enigmes résolues (paire par pare à la suite ) donnent une combinaison  
+- Quizz fait pour deux personnes 
+- Le cumul des scores font gagner des cadeaux 
 
 <a href="#sommaire">
 <img src="assets/button/back_to_top.png" alt="Home page" style="width: 150px; height: auto;">
