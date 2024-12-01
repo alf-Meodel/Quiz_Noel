@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Snowflake } from 'lucide-react';
+import React, { useState } from "react";
+import { Snowflake } from "lucide-react";
 
 interface LoginFormProps {
   day: number;
@@ -7,8 +7,8 @@ interface LoginFormProps {
 }
 
 export const LoginForm: React.FC<LoginFormProps> = ({ day, onLogin }) => {
-  const [keyword, setKeyword] = useState('');
-  const [password, setPassword] = useState('');
+  const [keyword, setKeyword] = useState("");
+  const [password, setPassword] = useState("");
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -25,7 +25,10 @@ export const LoginForm: React.FC<LoginFormProps> = ({ day, onLogin }) => {
       </h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
-          <label htmlFor="keyword" className="block text-sm font-medium text-teal-700 mb-2">
+          <label
+            htmlFor="keyword"
+            className="block text-sm font-medium text-teal-700 mb-2"
+          >
             Mot-clé du jour
           </label>
           <input
@@ -39,7 +42,10 @@ export const LoginForm: React.FC<LoginFormProps> = ({ day, onLogin }) => {
           />
         </div>
         <div>
-          <label htmlFor="password" className="block text-sm font-medium text-teal-700 mb-2">
+          <label
+            htmlFor="password"
+            className="block text-sm font-medium text-teal-700 mb-2"
+          >
             Mot de passe
           </label>
           <input

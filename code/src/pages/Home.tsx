@@ -17,7 +17,6 @@ export const Home: React.FC = () => {
       navigate(`/quiz/${day}`);
     } else {
       setError("Code ou mot de passe incorrect");
-      // Réinitialiser les champs après une erreur
       setCode("");
       setPassword("");
     }
@@ -51,7 +50,7 @@ export const Home: React.FC = () => {
               value={code}
               onChange={(e) => setCode(e.target.value)}
               className="w-full px-4 py-2 border border-teal-300 rounded-lg focus:ring-2 
-                       focus:ring-teal-500 focus:border-transparent"
+                     focus:ring-teal-500 focus:border-transparent"
               placeholder="Exemple: test"
               required
             />
@@ -65,11 +64,12 @@ export const Home: React.FC = () => {
               Mot de passe
             </label>
             <input
+              type="password"
               id="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               className="w-full px-4 py-2 border border-teal-300 rounded-lg focus:ring-2 
-                       focus:ring-teal-500 focus:border-transparent"
+                     focus:ring-teal-500 focus:border-transparent"
               placeholder="Exemple: test"
               required
             />
@@ -84,7 +84,7 @@ export const Home: React.FC = () => {
           <button
             type="submit"
             className="w-full py-3 px-6 bg-teal-600 text-white rounded-lg hover:bg-teal-700 
-                     transition-colors duration-200 font-medium"
+                   transition-colors duration-200 font-medium"
           >
             Accéder au quiz
           </button>
