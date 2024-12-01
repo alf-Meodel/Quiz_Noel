@@ -70,8 +70,14 @@ export const quizQuestions: Record<number, Question[]> = {
     },
     //PA
     {
-      question: "Quel jeu vidéo emblématique a été créé en 1972?",
-      options: ["Pac-Man", "Space Invaders", "Pong", "Tetris"],
+      question:
+        "Dans le niveau de la jeep de Tomb Raider 4 : La Révélation Finale, quel est l’objectif principal de Lara ??",
+      options: [
+        "Récupérer une clé pour ouvrir un temple",
+        "Trouver l’amulette d’Horus",
+        "Fuir les sbires de Von Croy",
+        "Désactiver des pièges mécaniques",
+      ],
       correctAnswer: 2,
     },
     // MA
@@ -179,12 +185,12 @@ export const quizQuestions: Record<number, Question[]> = {
     },
     {
       question:
-        "Quelle norme de protection a été rendue obligatoire dans les installations électriques dans les années 90?",
+        "Dans Tomb Raider 4 Quel lieu emblématique Lara explore-t-elle dans le premier niveau du jeu?",
       options: [
-        "Le fusible haute tension",
-        "Le sectionneur rotatif",
-        "Le disjoncteur différentiel",
-        "Les interrupteurs bipolaires",
+        "Les ruines de la Cité d’Alexandrie",
+        "Les Pyramides de Gizeh",
+        "La Vallée des Rois",
+        "Le Grand Sphinx",
       ],
       correctAnswer: 2,
     },
@@ -217,13 +223,9 @@ export const quizQuestions: Record<number, Question[]> = {
       correctAnswer: 3,
     },
     {
-      question: "Qu’est-ce que l’effet Joule ?",
-      options: [
-        "La réduction des pertes d’énergie",
-        "La stabilisation de la tension dans un circuit",
-        "La conversion d’énergie électrique en chaleur",
-        "La production de courant par induction",
-      ],
+      question:
+        "Dans Tomb Raider 4 Qui manipule Von Croy pour devenir l'antagoniste principal du jeu?",
+      options: ["Horus", "Anubis", "Seth ", "Osiris"],
       correctAnswer: 2,
     },
     // MA
