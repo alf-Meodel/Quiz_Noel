@@ -161,66 +161,68 @@ export const quizQuestions: Record<number, Question[]> = {
   4: [
     // MA
     {
-      question: "Quel fleuve traverse Varsovie ?",
-      options: ["Oder", "Warta", "Vistule", "Bug"],
+      question:
+        "Qui était le président de la République française lors de la proclamation de la Cinquième République en 1958 ?",
+      options: [
+        "François Mitterrand",
+        "Charles de Gaulle",
+        "Georges Pompidou",
+        "René Coty",
+      ],
       correctAnswer: 2,
     },
     {
       question:
-        "Quel appareil a popularisé l’utilisation des prises de terre dans les années 80?",
+        "Quel personnage des contes de Grimm transforme la paille en or en échange du premier-né d’une jeune fille ?",
       options: [
-        "Les radiateurs électriques",
-        "Les radiateurs électriques",
-        "Les télévisions couleur",
-        "Les aspirateurs industriels",
+        "Le joueur de flûte",
+        "Rumpelstiltskin (Nain Tracassin)",
+        "La sorcière de l'ouest",
+        "La sorcière de glace",
       ],
       correctAnswer: 1,
     },
     // MA
     {
       question:
-        "Quel instrument est souvent utilisé dans la musique traditionnelle polonaise ?",
-      options: ["Tambourin", "Flûte", "Guitare", "Accordéon"],
+        "Quel roi a succédé à Napoléon Ier après son abdication en 1814",
+      options: ["Henri 3", "Louis 17", "Charle X", "Louis 18"],
       correctAnswer: 3,
     },
     {
       question:
-        "Dans Tomb Raider 4 Quel lieu emblématique Lara explore-t-elle dans le premier niveau du jeu?",
-      options: [
-        "Les ruines de la Cité d’Alexandrie",
-        "Les Pyramides de Gizeh",
-        "La Vallée des Rois",
-        "Le Grand Sphinx",
-      ],
-      correctAnswer: 2,
+        "Qui était le premier roi des Francs à être couronné chrétien ? ",
+      options: ["Charlemagne", "Clovis", "Philippe Auguste", "Hugues Capet"],
+      correctAnswer: 1,
     },
     // MA
     {
-      question: "Qui a dirigé le mouvement Solidarność dans les années 1980?",
-      options: [
-        "Andrzej Duda",
-        "Adam Michnik",
-        "Lech Wałęsa",
-        "Tadeusz Mazowiecki",
-      ],
-      correctAnswer: 2,
+      question: "En quelle année débute le reigne de Louis 14",
+      options: ["1620", "1715", "1515", "1643"],
+      correctAnswer: 3,
     },
     {
       question:
-        "Pourquoi le courant est-il transformé en haute tension pour le transport ?",
+        "Quels pays composaient la Triple-Entente au début de la guerre ?",
       options: [
-        "Pour augmenter la puissance transportée",
-        "Pour réduire les pertes d’énergie",
-        "Pour éviter les courts-circuits",
-        "Pour alimenter les transformateurs",
+        "Royaume-Uni, France, Italie",
+        "France, Royaume-Uni, Russie",
+        "États-Unis, France, Royaume-Uni",
+        "Allemagne, Russie, France",
       ],
       correctAnswer: 1,
     },
     // MA
     {
-      question: "Quelle chaîne de montagnes est située au sud de la Pologne?",
-      options: ["Bieszczady", "Sudètes", "Carpates", "Tatras"],
-      correctAnswer: 3,
+      question:
+        "Dans les contes slaves, que doit souvent faire un héros pour obtenir l’aide de Baba Yaga ?",
+      options: [
+        "Lui offrir un trésor caché",
+        "Combattre un dragon gardant son territoire",
+        "Répondre à des énigmes ou accomplir des tâches impossibles",
+        "Lui voler un objet magique",
+      ],
+      correctAnswer: 2,
     },
     {
       question:
@@ -230,16 +232,25 @@ export const quizQuestions: Record<number, Question[]> = {
     },
     // MA
     {
-      question:
-        "Dans quel pays la tradition du calendrier de l'Avent a-t-elle débuté?",
-      options: ["Suisse", "Allemagne", "Autriche", "France"],
+      question: "Dans les légendes polonaises, qui est Kostcheï l'Immortel ?",
+      options: [
+        "Un roi légendaire qui a uni les tribus slaves",
+        "Un sorcier maléfique dont l'âme est cachée dans un objet",
+        "Un dragon qui garde un trésor sous le Wawel",
+        "Un héros mythique qui a vaincu les forces du mal",
+      ],
       correctAnswer: 1,
     },
     {
       question:
-        "Quel animal tire traditionnellement le traîneau du Père Noël en Scandinavie?",
-      options: ["Renne", "Cheval", "Élan", "Bœuf"],
-      correctAnswer: 0,
+        "Qui a été le dernier roi à régner en France avant l’instauration définitive de la République ?",
+      options: [
+        "Charles X",
+        "Napoléon III",
+        "Louis XVIII",
+        "Louis-Philippe Ier",
+      ],
+      correctAnswer: 3,
     },
   ],
   // Ajoutez les questions pour les autres jours ici...
