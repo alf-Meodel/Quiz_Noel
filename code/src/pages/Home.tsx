@@ -64,7 +64,7 @@ export const Home: React.FC = () => {
               Mot de passe
             </label>
             <input
-              type="password"
+              // type="password"
               id="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
