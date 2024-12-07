@@ -257,63 +257,97 @@ export const quizQuestions: Record<number, Question[]> = {
   6: [
     // MA
     {
-      question: "Quelle est l'origine de la tradition du sapin de Noël?",
-      options: ["Allemagne", "France", "Suède", "Russie"],
-      correctAnswer: 0,
-    },
-    {
-      question:
-        "En quelle année le Père Noël a-t-il été représenté en rouge pour la première fois?",
-      options: ["1931", "1920", "1945", "1910"],
-      correctAnswer: 0,
-    },
-    // MA
-    {
-      question: "Quel renne du Père Noël a le nez rouge?",
-      options: ["Dasher", "Rudolph", "Comet", "Blitzen"],
+      question: "Quel événement marque le début de la Révolution française ?",
+      options: [
+        "La Déclaration des droits de l'homme et du citoyen",
+        "La Prise de la Bastille",
+        "La fuite à Varennes",
+        "La Rédaction de la Constitution",
+      ],
       correctAnswer: 1,
     },
     {
-      question:
-        "Dans quel pays la tradition des chaussettes de Noël a-t-elle commencé?",
-      options: ["États-Unis", "Angleterre", "Pays-Bas", "Irlande"],
-      correctAnswer: 1,
-    },
-    // MA
-    {
-      question: "Quelle épice est souvent utilisée dans les biscuits de Noël?",
-      options: ["Cannelle", "Poivre", "Cumin", "Curry"],
-      correctAnswer: 0,
-    },
-    {
-      question:
-        "Combien de cadeaux sont traditionnellement offerts pendant les 12 jours de Noël?",
-      options: ["364", "365", "366", "78"],
-      correctAnswer: 0,
-    },
-    // MA
-    {
-      question: "Quel pays a commencé la tradition de la couronne de l'Avent?",
-      options: ["Suède", "Allemagne", "Autriche", "Danemark"],
-      correctAnswer: 1,
-    },
-    {
-      question: "Quelle plante est connue comme le 'baiser de Noël'?",
-      options: ["Houx", "Gui", "Poinsettia", "Lierre"],
-      correctAnswer: 1,
+      question: "Qu'est-ce que l'Édit de Nantes et qui l'a promulgué ?",
+      options: [
+        "Une loi abolissant la monarchie, par Louis XVI",
+        "Une déclaration interdisant la guerre civile, par François Ier",
+        "Une réforme agricole, par Napoléon Bonaparte",
+        "Une loi garantissant la liberté de culte aux protestants, par Henri IV",
+      ],
+      correctAnswer: 3,
     },
     // MA
     {
       question:
-        "Dans quel pays la tradition du calendrier de l'Avent a-t-elle débuté?",
-      options: ["Suisse", "Allemagne", "Autriche", "France"],
-      correctAnswer: 1,
+        "Comment s'appelle la fête polonaise qui marque l'arrivée du printemps avec la destruction symbolique d'une effigie de femme ?",
+      options: [
+        "Andrzejki",
+        "Wianki",
+        "Wszystkich Świętych",
+        "Topienie Marzanny",
+      ],
+      correctAnswer: 3,
+    },
+    {
+      question: "De quelle région française provient le camembert ?",
+      options: ["Normandie ", "Bretagne", "Alsace", "Bourgogne"],
+      correctAnswer: 0,
+    },
+    // MA
+    {
+      question:
+        "Quelle activité principale est associée à la tradition d'Andrzejki ?",
+      options: [
+        "La décoration des œufs",
+        "La danse autour d’un feu",
+        "La fonte de cire de bougie pour prédire l’avenir",
+        "L’échange de cadeaux",
+      ],
+      correctAnswer: 2,
     },
     {
       question:
-        "Quel animal tire traditionnellement le traîneau du Père Noël en Scandinavie?",
-      options: ["Renne", "Cheval", "Élan", "Bœuf"],
+        "Quel style architectural est caractérisé par des arcs en ogive et des vitraux colorés, comme on peut le voir à la cathédrale Notre-Dame de Paris ?",
+      options: ["Roman", "Baroque", "Gothique ", "Renaissance"],
+      correctAnswer: 2,
+    },
+    // MA
+    {
+      question: "Quel élément est central dans la fête de Wianki ?",
+      options: [
+        "Les couronnes de fleurs",
+        "Les feux de joie",
+        "Les sculptures en bois",
+        "Les bougies flottantes",
+      ],
       correctAnswer: 0,
+    },
+    {
+      question: "Qui a conçu le dôme de verre de la Pyramide du Louvre?",
+      options: [
+        "Jean Nouvel",
+        "Gustave Eiffel",
+        "Ieoh Ming Pei",
+        "Philippe Starck",
+      ],
+      correctAnswer: 2,
+    },
+    // MA
+    {
+      question:
+        "Combien de plats sont traditionnellement servis lors de Wigilia ?",
+      options: ["5", "2", "12", "1"],
+      correctAnswer: 2,
+    },
+    {
+      question: "Qui a réalisé le film français Amélie Poulain ?",
+      options: [
+        "Luc Besson",
+        "François Ozon",
+        "Claude Lelouch",
+        "Jean-Pierre Jeunet ",
+      ],
+      correctAnswer: 3,
     },
   ],
   // Ajoutez les questions pour les autres jours ici...
